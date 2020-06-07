@@ -1,7 +1,4 @@
-@import './pages/homepage/homepage.styles.scss';
-@import './components/directory/directory.styles.scss';
-@import './components/menu/menuItem.scss';
-@import './components/preview-collection/collectionPreview.scss';
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap");
 
 body {
   margin: 0;
@@ -11,6 +8,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 1.5rem 4rem;
 }
 
 code {
