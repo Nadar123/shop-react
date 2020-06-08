@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+
+  .logo-container {
+    text-decoration: none;
+    color: #1aff00;
+    transition: color 0.3 ease-in-out;
+    cursor: pointer;
+    &:hover {
+      color: #00ffdd;
+    }
+  }
+  .options.menu-link {
+    display: flex;
+
+    .option {
+      font-size: 18px;
+      margin: 1rem;
+      color: #1aff00; 
+      text-decoration: none;
+      transition: color 0.3 ease-in-out;
+      cursor: pointer;
+      &:hover {
+        color: black;
+      }
+    }
+  }
+}

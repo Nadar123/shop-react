@@ -4,6 +4,7 @@ import './collectionPreview.scss';
 import CollectionItem from '../collection-item/CollectionItem'
 
 const CollectionPreview = ({ title, items }) => (
+  
   <div className='collection-preview'>
     <h1 className='title'>{title}</h1>
     <div className='preview'>
