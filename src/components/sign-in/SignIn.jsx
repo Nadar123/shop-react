@@ -44,7 +44,7 @@ export class SignIn extends Component {
             handleChange={this.handleChange} 
             label="password"
           />
-          <div className="custom-btn-wrapper">
+          <div className="custom-btn-wrapper buttons">
             <CustomButton type="submit"> Sign in  </CustomButton>
             <CustomButton onClick={signInWithGoogle}  isGoogleSignIn>
                {''} Sign in with Google {''}
